@@ -10,7 +10,17 @@ const ChatFeed = (props) => {
   //Finding current chat
   const chat = chats && chats[activeChat];
 
-  console.log(chat, userName, messages );
+  //Function for rendering / generating Messages
+  const renderMessages = () => {
+
+      const keys = Object.keys(messages);
+      console.log(keys);
+
+    
+  }; 
+
+  renderMessages()
+  
     
   return (
     <div>
